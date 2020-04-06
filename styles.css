@@ -2,3 +2,39 @@ h2 {
     color:pink;
     text-align: right;
 }
+
+}
+table {
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    border-collapse: collapse; /* emilinates the double borders */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+th,td {
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    text-align: center;
+    padding: 3px;
+}
+th {
+    background-color: linen;
+}
+/* personalized '#'=id (must be unique) '.'=class (i can have several elements with the same class)*/
+#top {
+    font-size: 36px;
+}
+#bottom {
+    border:3px dotted blueviolet;
+    background-color: teal;
+    width: 300px;
+    height: 100px;
+    margin: 10px; /* page border to box  */
+    padding: 15px; /* text to box border */
+}
+.name {
+    font-weight: bolder;
+    font-family: cursive;
+    font-style: italic;
+}
